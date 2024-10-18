@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { PageWrapper } from "./styled";
 import CardItemDetailStarship from "@/components/starship/cardItemDetailStarship/cardItemDetailStarship";
 
-export default function ExampleClientComponent() {
+export default function PageStarshipId() {
   const params = useParams<{ starshipId: string }>();
 
   return (

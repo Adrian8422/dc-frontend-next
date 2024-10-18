@@ -1,4 +1,4 @@
-const BASE_URL = "https://dc-api-nestjs.onrender.com";
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL as string;
 
 export async function fetchAPI(input: RequestInfo) {
   const url = BASE_URL + input;

@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { PageWrapper } from "./styled";
 import CardItemDetailPlanets from "@/components/planets/cardItemDetailPlanets/cardItemDetailPlanets";
 
-export default function ExampleClientComponent() {
+export default function PagePlanetId() {
   const params = useParams<{ planetId: string }>();
 
   return (

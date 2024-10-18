@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { PageWrapper } from "./styled";
 import CardItemDetail from "@/components/charecters/cardItemDetail/cardItemDetail";
 
-export default function ExampleClientComponent() {
+export default function PagePeopleId() {
   const params = useParams<{ peopleId: string }>();
 
   return (
