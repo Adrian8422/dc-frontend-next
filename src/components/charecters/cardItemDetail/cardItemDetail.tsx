@@ -2,7 +2,6 @@ import { useGetPeopleById } from "@/lib/hooks/peoplehooks";
 import { CardContainer, Info, Title, Image, Description } from "./styled";
 import { useEffect, useState } from "react";
 
-
 interface Person {
   _id: string;
   name: string;

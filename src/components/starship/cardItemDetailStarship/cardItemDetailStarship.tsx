@@ -24,9 +24,9 @@ const CardItemDetailStarship: React.FC<{ id: string }> = ({ id }) => {
       <Description isVisible={isVisible}>
         <Title>{data?.name}</Title>
         <Info>Modelo: {data?.model}</Info>
-        <Info>Vel.máxima: {data?.max_atmosphering_speed}</Info>
+        <Info>Vel. máxima: {data?.max_atmosphering_speed} km/h</Info>
         <Info>Pasajeros: {data?.passengers}</Info>
-        <Info>Coste: {data?.cost_in_credits}</Info>
+        <Info>Coste: {data?.cost_in_credits} créditos</Info>
         <Info>Tripulación: {data?.crew}</Info>
         <Info>Consumibles: {data?.consumables}</Info>
       </Description>

@@ -39,9 +39,9 @@ const CardItemDetailPlanets: React.FC<{ id: string }> = ({ id }) => {
         <Info>Clima: {planet?.climate}</Info>
         <Info>Gravedad: {planet?.gravity}</Info>
         <Info>Diámetro: {planet?.diameter}</Info>
-        <Info>Periodo Orbitral: {planet?.orbital_period}</Info>
-        <Info>Periodo rotación: {planet?.rotation_period}</Info>
-        <Info>Superficie de agua: {planet?.surface_water}</Info>
+        <Info>Periodo Orbital: {planet?.orbital_period}</Info>
+        <Info>Periodo Rotación: {planet?.rotation_period}</Info>
+        <Info>Superficie de Agua: {planet?.surface_water}</Info>
       </Description>
     </CardContainer>
   );

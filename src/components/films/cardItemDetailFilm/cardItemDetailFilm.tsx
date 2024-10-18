@@ -17,7 +17,7 @@ const CardItemDetailFilm: React.FC<{ id: string }> = ({ id }) => {
 
   return (
     <CardContainer isVisible={isVisible}>
-      <Image src={data?.image || "/placeholder.png"} alt={data?.name} />
+      <Image src={data?.image || "/placeholder.png"} alt={data?.title} />
       <Description isVisible={isVisible}>
         <Title>{data?.title}</Title>
         <Info>Director: {data?.director}</Info>
