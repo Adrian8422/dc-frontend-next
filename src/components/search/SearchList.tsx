@@ -5,7 +5,6 @@ import {
   ResultItem,
   Pagination,
   Title,
-  Info,
 } from "./styled";
 import { searchAPI } from "@/lib/api";
 import { useRouter } from "next/navigation";
